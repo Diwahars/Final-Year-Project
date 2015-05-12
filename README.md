@@ -26,3 +26,16 @@ Now run main.py which contains GUI which would help in selecting a Product Categ
 main.py invokes product.py which shows all the products in the selected category. 
 
 once a product is selected feat_select.py in invoked which display all the frequent features. Selecting a freqent feature allows the user to see all the positive and negative reviews sentences containing the features. 
+
+Project done by,
+
+Arjun Krishnan CB.EN.U4CSE11307
+Gnana Sundaram G CB.EN.U4CSE11315
+Raghavkrishna S.R. CB.EN.U4CSE11339
+
+under the guidance of 
+Ritwik M
+Assistant Professor,
+Amrita Vishwa Vidyapeetham,
+Coimbatore
+
