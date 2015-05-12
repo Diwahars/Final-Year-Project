@@ -2,7 +2,7 @@ Welcome to our Final Year Project. This tool allows you to view the most frequen
 
 To get started, you will have to crawl an E-commerce website for user reviews. In our tool we have crawled flipkart. 
 
-To do this the database has to be setup with the DB dump included with the DB name as product_productname eg. : product_mobilephone
+To do this the database has to be setup with the DB dump included(productdb.sql present in root) with the DB name as product_productname eg. : product_mobilephone
 
 crawler.py in the folder Crawler crawls the Product Selection page for product links.
 
@@ -23,6 +23,6 @@ extractor.py extracts the most frequent features from the user reviews.
 
 Now run main.py which contains GUI which would help in selecting a Product Category such as Mobile Phone or Pen Drive.
 
-main.py invokes product_select.py which shows all the products in the selected category. 
+main.py invokes product.py which shows all the products in the selected category. 
 
 once a product is selected feat_select.py in invoked which display all the frequent features. Selecting a freqent feature allows the user to see all the positive and negative reviews sentences containing the features. 
