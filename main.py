@@ -10,8 +10,8 @@ import ttk
 import product as pro
 
 def getproducts():
-	lines = [line.strip() for line in open(os.path.join("Files",'products.txt'))]
-	return lines
+        lines = [line.strip() for line in open(os.path.join("Files",'products.txt'))]
+        return lines
 
             
 
@@ -34,19 +34,19 @@ class SelectProduct(tk.Frame):
         self.populate()
 
     def populate(self):
-		proname=getproducts()
-		prolabel=[]
-		tk.Label(self.frame,text="WELCOME, PLEASE SELECT A PRODUCT").grid(row=0,column=0,columnspan=10)
-		for i in range(len(proname)):
-			prolabel.append(tk.Button(self.frame,text=proname[i],command=self.clickProduct(proname[i])))
-			prolabel[i].grid(row=i+1,column=1,padx=190,pady=10)
+                proname=getproducts()
+                prolabel=[]
+                tk.Label(self.frame,text="WELCOME, PLEASE SELECT A PRODUCT").grid(row=0,column=0,columnspan=10)
+                for i in range(len(proname)):
+                        prolabel.append(tk.Button(self.frame,text=proname[i],command=self.clickProduct(proname[i])))
+                        prolabel[i].grid(row=i+1,column=1,padx=190,pady=10)
     def clickProduct(self,name):
-		def _clickProduct():
-			pro.run(name)
-		return _clickProduct
-		
-			
-			
+                def _clickProduct():
+                        pro.run(name)
+                return _clickProduct
+                
+                        
+                        
     def OnFrameConfigure(self, event):
         '''Reset the scroll region to encompass the inner frame'''
         self.canvas.configure(scrollregion=self.canvas.bbox("all"))

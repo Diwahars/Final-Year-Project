@@ -1,0 +1,3 @@
+In products.txt make sure you enter the same name as you have entered in Product Links present in Crawler Folder.
+
+To add new products add the product category name and the link in Product Links first then add the same product category name in products.txt.   

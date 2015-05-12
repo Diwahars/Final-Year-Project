@@ -1,0 +1,9 @@
+In Product Links, Enter the Product Category Name and Product Category Link in the following format:
+
+Product Name (leave a space in between if there is more than one word)
+Product Link
+
+Example:
+
+Mobile Phones
+http://www.flipkart.com/mobiles/pr?sid=tyy%2C4io&ajax=true&start=
