@@ -4,9 +4,9 @@ To get started, you will have to crawl an E-commerce website for user reviews. I
 
 To do this the database has to be setup with the DB dump included with the db name as product_productname eg. : product_mobilephone
 
-crawler.py crawls the Product Selection page forproduct links.
+crawler.py in the folder Crawler crawls the Product Selection page forproduct links.
 
-To add new products first add the name of the product and then the link of the product at the end of <filename> in the format shown below:
+To add new products first add the name of the product and then the link of the product at the end of the file Product Links which is present in the folder Crawler in the format shown below:
 
 Product Name <new line>
 (If product name is more than one word, leave a space in between; This name should match the db name) eg: Mobile Phone
