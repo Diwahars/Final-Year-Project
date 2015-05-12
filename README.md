@@ -8,6 +8,8 @@ crawler.py in the folder Crawler crawls the Product Selection page forproduct li
 
 To add new products first add the name of the product and then the link of the product at the end of the file Product Links which is present in the folder Crawler in the format shown below:
 
+After doing so add the product name at the end of products.txt present in the folder Files. 
+
 Product Name <new line>
 (If product name is more than one word, leave a space in between; This name should match the db name) eg: Mobile Phone
 Product Link
